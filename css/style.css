@@ -1,0 +1,149 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.title span {
+    color: #f200ff;
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img {
+max-width: 600px;
+}
+.main-info {
+    max-width: 500px;
+}
+.main-info{
+    padding-left: 17px;
+}
+.main-info a {
+ font-size: 20px;
+ color: #f200ff;
+ text-decoration: none;
+}
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+.form h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Georgia", serif;
+    margin-bottom: 25px;
+} 
+.form input { 
+padding: 12px 20px;       
+    font-size: 16px;
+    font-family: "Georgia", serif;
+    font-style: italic;       
+    
+    border: 2px solid #e68a19;  
+    border-radius: 12px;      
+    margin-bottom: 15px;      
+    background-color: #fff;
+    outline: none;            
+    box-sizing: border-box;
+
+}
+.form button { 
+background-color: #f200ff;
+padding: 16px;
+font-size: 20px;
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+.form button:hover {
+    background-color: black;
+    color: blue;
+    border: #f200ff 3px solid;
+}
+.contacts-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.contacts-visual, 
+.contacts-content {
+    flex: 1;
+}
+
+.contacts-visual img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+}
+
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contacts-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.contacts-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contacts-list .icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+
+.transport-info {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.transport-info p {
+    margin: 5px 0;
+}
+.message-input {
+    width: 100%;
+    max-width: 400px;
+    height: 120px;          
+    padding: 12px 15px;
+    border: 2px solid #e68a19;
+    border-radius: 12px;  font-family: "Georgia", serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #e68a19;
+    box-sizing: border-box;
+    outline: none;
+    text-align: start;
+    vertical-align: top;}
+    .message-input::placeholder {
+    color: #f3a447;
+    opacity: 0.7;
+}
+.form input::placeholder {
+    color: #f3a447;           
+    opacity: 0.8;
+}
